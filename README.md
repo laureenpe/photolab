@@ -8,7 +8,7 @@ Using Gulp
 
 ### Contents
 - [Ambiente de desarrollo](#desarrollo)
-- [Requerimientos Técnicos](#Requerimientos Técnicos)
+- [Requerimientos Tecnicos](#Requerimientos)
 - [Dependencias](#dependencias)
 
 ### Ambiente de Desarrollo 
@@ -29,5 +29,5 @@ Using Gulp
 - Gulp-webServer -v.0.9.1
 
 ### Dependencias de Producción
-- jquery": "^3.2.1",
-- materialize-css": "^0.100.1"
+- jquery": -v.3.2.1",
+- materialize-css": -v.0.100.1
