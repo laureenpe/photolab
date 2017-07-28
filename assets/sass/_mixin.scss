@@ -1,0 +1,9 @@
+@mixin padding(){
+    padding-left: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@mixin buttons(){
+    margin-top: 3%;
+    border-radius: 7px;
+}

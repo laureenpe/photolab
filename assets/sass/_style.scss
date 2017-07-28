@@ -1,0 +1,75 @@
+/*NAVBAR*/
+nav{
+    background-color: transparent;
+    border: none;
+    
+}
+
+nav ul a {
+    color: $white;
+    padding-left: 25px;}
+
+nav .nav-wrapper {
+    margin-left: 29%;
+   }
+.container-background{
+    background-image: url(../img/bg1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header{
+    margin-top: 15%;
+    color: $white;
+}
+
+/*FIRST SECTION*/
+.represent{
+     @include padding();
+background-color: #f5f6f8;
+    h5{
+    color: $green;
+    text-transform: uppercase;
+    }
+    img{
+        height: 59vh;
+    }
+}
+
+/*Second Section*/
+.design{
+    padding-left: 3%;
+    padding-top: 7%;
+ 
+    h4{
+        color: $green;
+    }
+}
+/*Third section*/
+.community{
+    background-color: #f5f6f8;
+   @include padding();
+       text-align: center
+   
+}
+/*Footer*/
+footer{
+    color: black;
+ @include padding();
+ a{
+     border-right: 1px solid $green;
+     padding-right: 10px;
+     color: black;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+}
+
+/*Buttons*/
+.waves-effect{
+     @include buttons();
+}
